@@ -89,6 +89,7 @@ body {
 .legacy-form-row {
   border: none;
   margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 .legacy-form-row legend {
@@ -138,11 +139,13 @@ body {
   .legacy-form-row {
     margin-bottom: 10px;
   }
-  .legacy-form-row legend {
+  .legacy-form-row legend{
     width: 120px;
-    text-align: left;
+    text-align: right;
     align-items: flex-start;
     padding-right: 20px;
+  }
+  .legacy-form-row legend {
     float: left;
   }
 }
