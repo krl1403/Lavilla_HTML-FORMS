@@ -16,11 +16,6 @@ body {
   align-items: center;
 }
 
-.header {
-  height: 75px;
-  width: 100%;
-}
-
 .main {
   height: 25rem;
   background-color: #F6F7F8;
