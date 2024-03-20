@@ -5,7 +5,7 @@
 }
 
 body {
-  color: #5D6063;
+  color: #f5f5f5;
   background-color: rgb(255, 255, 255);
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 16px;
@@ -17,27 +17,27 @@ body {
 }
 
 /*
-primary #f5f5f5
-secondary #28272c
+primary #f5f5f5;
+secondary #28272c;
 */
 
-.homepage-header {
-  height: 50px;
-  width: 100%;
-  background-color: black;
-}
-
 .main {
-  color: #f5f5f5;
-  height: 25rem;
-  background-color: #28272c;
-  width: 100%;
   text-align: center;
-  padding-top: 20px;
+  background-color: #28272c;
+  border: 1px solid #D6D9DC;
+  border-radius: 10px;
+
+  width: 80%;
+  margin: 20px 0;
+  padding: 50px;
 }
 
 .main img {
-  padding-top: 10px;
+  height: 15rem;
+}
+
+.main h1 {
+  margin-top: 10px;
 }
 
 .main p {
@@ -45,27 +45,27 @@ secondary #28272c
 }
 
 .main button {
-  margin-top: 15px;
+  margin-top: 20px;
   padding: 20px 30px;
   border: none;
   border-radius: 10px;
 }
 
 .main a button:hover {
-  color: #5D6063;
-  background-color: #d7d8da;
+  color: #28272c;
+  background-color: #4ceb47;
 }
 
 .main a button {
-  background-color: #f5f5f5;
+  background-color: #21bd1c;
   font-size: 11px;
   text-decoration: none;
-  color: #28272c
+  color: #ffffff;
 }
 
 .speaker-form-header {
   text-align: center;
-  background-color: #F6F7F8;
+  background-color: #28272c;
   border: 1px solid #D6D9DC;
   border-radius: 10px;
 
@@ -80,7 +80,7 @@ secondary #28272c
 }
 
 .speaker-form {
-  background-color: #F6F7F8;
+  background-color: #28272c;
   border: 1px solid #D6D9DC;
   border-radius: 10px;
 
